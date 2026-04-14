@@ -1,4 +1,4 @@
-# ppeval
+# VLM/Visual
 
 A lightweight multitask evaluation toolkit for vision-language model (VLM) and visual model outputs.
 
