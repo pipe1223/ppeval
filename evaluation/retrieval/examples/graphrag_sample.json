@@ -1,0 +1,44 @@
+[
+  {
+    "question": "How is A connected to C?",
+    "retrieved_ids": [
+      "ctx-1",
+      "ctx-5"
+    ],
+    "gold_ids": [
+      "ctx-5"
+    ],
+    "retrieved_node_ids": [
+      "A",
+      "B",
+      "C"
+    ],
+    "gold_node_ids": [
+      "B",
+      "C"
+    ],
+    "retrieved_edge_ids": [
+      "A-B",
+      "B-C"
+    ],
+    "gold_edge_ids": [
+      "B-C"
+    ],
+    "retrieved_paths": [
+      [
+        "A",
+        "B",
+        "C"
+      ]
+    ],
+    "gold_paths": [
+      [
+        "A",
+        "B",
+        "C"
+      ]
+    ],
+    "answer": "A connects to C through B.",
+    "gold_answer": "A connects to C through B."
+  }
+]

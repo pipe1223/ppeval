@@ -1,0 +1,30 @@
+[
+  {
+    "question": "Who wrote the paper?",
+    "retrieved_ids": [
+      "chunk-1",
+      "chunk-2",
+      "chunk-3"
+    ],
+    "gold_ids": [
+      "chunk-2"
+    ],
+    "answer": "Alice Smith",
+    "gold_answer": "Alice Smith",
+    "is_supported": true
+  },
+  {
+    "question": "What year was the system released?",
+    "retrieved_ids": [
+      "chunk-9",
+      "chunk-7",
+      "chunk-4"
+    ],
+    "gold_ids": [
+      "chunk-4"
+    ],
+    "answer": "2024",
+    "gold_answer": "2024",
+    "is_supported": true
+  }
+]
