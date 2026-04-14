@@ -1,8 +1,6 @@
 # PP Evaluation
 
-**PP Evaluation** stands for **Perception & Provenance Evaluation**.
-
-It is a unified evaluation project for AI systems used in both research and engineering workflows.
+It is a unified evaluation project used in both research and engineering workflows.
 
 - **Perception** covers visual, multimodal, and VLM-style tasks such as classification, captioning, VQA, detection, segmentation, and grounding.
 - **Provenance** covers retrieval-grounded systems such as search, RAG, and GraphRAG, where answer quality depends on evidence quality and traceability.
