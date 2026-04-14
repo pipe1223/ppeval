@@ -1,1 +1,0 @@
-"""Legacy visual evaluation package."""
