@@ -13,14 +13,14 @@ The project is designed to gather useful evaluation methods that are commonly us
 
 PP Evaluation aims to support four practical evaluation layers:
 
-### Phase 1 — Shared core metrics
+### 1 — Shared core metrics
 - classification-style precision / recall / F1
 - exact match
 - token F1
 - ranking metrics such as Recall@k, MRR, nDCG, AP
 - system metrics such as latency, token usage, cost, and success rate
 
-### Phase 2 — RAG metrics
+### 2 — RAG metrics
 - retrieval ranking quality
 - answer correctness
 - context precision / recall
@@ -28,14 +28,14 @@ PP Evaluation aims to support four practical evaluation layers:
 - support rate
 - deterministic faithfulness proxy
 
-### Phase 3 — GraphRAG metrics
+### 3 — GraphRAG metrics
 - node recall
 - edge recall
 - path hit rate
 - subgraph coverage
 - multi-hop answer success
 
-### Phase 4 — Online / judge-based evaluation
+### 4 — Online / judge-based evaluation
 - pairwise comparison
 - rule-based validators
 - LLM judge adapter interface
