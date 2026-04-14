@@ -1,0 +1,32 @@
+[
+  {
+    "sample_id": "graphrag-1",
+    "question": "How is node A connected to node D?",
+    "retrieved_ids": ["ctx-1", "ctx-4"],
+    "gold_ids": ["ctx-4"],
+    "retrieved_node_ids": ["A", "B", "D"],
+    "gold_node_ids": ["A", "B", "D"],
+    "retrieved_edge_ids": ["A-B", "B-D"],
+    "gold_edge_ids": ["A-B", "B-D"],
+    "retrieved_paths": [["A", "B", "D"]],
+    "gold_paths": [["A", "B", "D"]],
+    "answer": "A connects to D through B.",
+    "gold_answer": "A connects to D through B.",
+    "requires_multihop": true
+  },
+  {
+    "sample_id": "graphrag-2",
+    "question": "How is node X connected to node Z?",
+    "retrieved_ids": ["ctx-x"],
+    "gold_ids": ["ctx-z"],
+    "retrieved_node_ids": ["X", "Y"],
+    "gold_node_ids": ["X", "Y", "Z"],
+    "retrieved_edge_ids": ["X-Y"],
+    "gold_edge_ids": ["X-Y", "Y-Z"],
+    "retrieved_paths": [["X", "Y"]],
+    "gold_paths": [["X", "Y", "Z"]],
+    "answer": "X is related to Z.",
+    "gold_answer": "X connects to Z through Y.",
+    "requires_multihop": true
+  }
+]

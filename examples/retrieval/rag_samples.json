@@ -1,0 +1,24 @@
+[
+  {
+    "sample_id": "rag-1",
+    "question": "Who founded OpenAI?",
+    "retrieved_ids": ["doc-1", "doc-9", "doc-2"],
+    "gold_ids": ["doc-2", "doc-9"],
+    "cited_ids": ["doc-9"],
+    "answer": "OpenAI was founded by several people including Sam Altman, Greg Brockman, Ilya Sutskever, Wojciech Zaremba, Elon Musk, and others.",
+    "gold_answer": "OpenAI was founded by a group including Sam Altman, Greg Brockman, Ilya Sutskever, Wojciech Zaremba, Elon Musk, and others.",
+    "is_supported": true,
+    "claim_support": [true, true]
+  },
+  {
+    "sample_id": "rag-2",
+    "question": "What is retrieval-augmented generation?",
+    "retrieved_ids": ["doc-a", "doc-b"],
+    "gold_ids": ["doc-a"],
+    "cited_ids": ["doc-b"],
+    "answer": "It is a method that combines retrieval and generation.",
+    "gold_answer": "Retrieval-augmented generation combines retrieved context with generation.",
+    "is_supported": false,
+    "claim_support": [false]
+  }
+]

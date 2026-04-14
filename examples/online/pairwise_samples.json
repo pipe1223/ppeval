@@ -1,0 +1,6 @@
+[
+  {"sample_id": "p-1", "winner": "candidate"},
+  {"sample_id": "p-2", "winner": "baseline"},
+  {"sample_id": "p-3", "winner": "tie"},
+  {"sample_id": "p-4", "winner": "candidate"}
+]
