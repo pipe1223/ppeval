@@ -1,6 +1,4 @@
-# Unified evaluation project
-
-This package has been reorganized to support more than visual or VLM evaluation.
+# PP evaluation
 
 ## Main structure
 
@@ -18,14 +16,6 @@ evaluation/
 └── shared/
     └── metrics/
 ```
-
-## What was changed
-
-- Moved the current visual evaluator into `evaluation/visual/legacy/`
-- Left compatibility wrappers at the old paths
-- Added retrieval / RAG / GraphRAG evaluators
-- Added shared ranking and text metrics
-- Added split requirements files
 
 ## Typical usage
 
